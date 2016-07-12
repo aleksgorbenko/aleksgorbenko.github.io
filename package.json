@@ -1,0 +1,25 @@
+{
+  "name": "github_pages_site",
+  "version": "1.0.0",
+  "description": "Aleks Gorbenko personal portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksgorbenko/aleksgorbenko.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksgorbenko/aleksgorbenko.github.io/issues"
+  },
+  "homepage": "https://github.com/aleksgorbenko/aleksgorbenko.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "lodash": "^4.13.1"
+  }
+}
