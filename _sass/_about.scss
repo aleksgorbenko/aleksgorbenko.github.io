@@ -1,0 +1,26 @@
+/* About */
+
+.about-me {
+  /*position: relative;*/
+  background-color: #EDEEEF;
+  height: 100%;
+  padding: 50px;
+}
+
+/*.about-me-container {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}*/
+
+.about-me-tagline {
+  font-style: italic;
+  font-size: 30px;
+  color: #aaa;
+  vertical-align: middle;
+}
+
+.about-me-text {
+  font-size: 20px;
+}

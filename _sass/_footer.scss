@@ -1,0 +1,43 @@
+/* FOOTER */
+
+.footer {
+  height: 100%;
+  background-color: #26262A;
+  color: #fff;
+}
+
+.bottom-logo {
+  margin-top: 100px;
+}
+
+.bottom-logo span {
+  font-family: 'Droid Serif', serif;
+  font-size: 40px;
+  letter-spacing: 6px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  color: rgba(255,255,255, .3);
+  font-family: serif;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.bottom-logo p {
+  font-family: 'Droid Serif', serif;
+  font-weight: 700;
+}
+
+
+.social-button {
+  width: 30px;
+  margin: 15px;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.social-button:hover {
+  background-color: #999;
+  transition-duration: .5s;
+}

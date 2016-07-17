@@ -4,20 +4,38 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="hero text-center">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="col-xs-12 animated fadeIn">
+    <h1 class="name">
+      ALEKS GORBENKO
+    </h1>
+    <h2 class="tagline">
+      Ruby on Rails Web Developer
+    </h2>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div
+      id="monolith"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Tycho Magnetic Anomaly TMA-1"
+    ></div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <a class="btn btn-default">Who Am I?</a>
+
+  </div>
+</div>
+
+<!-- triggering all the tooltips -->
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+
+
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>

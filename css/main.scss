@@ -3,12 +3,35 @@
 ---
 @charset "utf-8";
 
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+// Font variables
+$font-name: "anuratiregular";
+$font-path-file-name: {{ baseurl }}/assets/fonts/anurati-regular-webfont;
+
+@font-face {
+    font-family: $font-name;
+    src: url($font-path-file-name+'.woff2') format('woff2'),
+         url($font-path-file-name+'.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "foundation",
         "layout",
-        "syntax-highlighting"
+        "animate",
+        "projects",
+        "footer",
+        "monolith",
+        "navbar",
+        "portfolio",
+        "about",
+        "picture"
 ;
+
+
