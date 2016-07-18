@@ -42,6 +42,19 @@ button.collapsed {
   cursor: s-resize;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #eee;
+  }
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(255,255,255, .3);
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(255,255,255, .5);
+  border-color: #fff;
+}
+
 .navbar-toggle {
   float: none;
   border-radius: 0;
