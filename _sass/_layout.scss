@@ -58,6 +58,11 @@ body {
   color: #828282;
 }
 
+::selection {
+  background: #777;
+  color: #eee;
+}
+
 /* INTRO */
 
 .name {
