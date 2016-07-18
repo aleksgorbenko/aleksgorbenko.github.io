@@ -1,5 +1,3 @@
-
-
 /* GLOBAL */
 
 h2, h3, h4, h5, h6, p, span, li {
@@ -43,35 +41,6 @@ body {
 
 /* INTRO */
 
-.name {
-  font-family: 'anuratiregular', Helvetica;
-  font-size: 100px;
-  letter-spacing: 10px;
-  color: #fff;
-  margin-top: 300px;
-}
-.name.animated.fadeIn {
-  @include animation(5s);
-}
-
-.name.animated.fadeIn {
-  -webkit-animation-duration: 5.0s;
-  -moz-animation-duration: 5.0s;
-  -o-animation-duration: 5.0s;
-  animation-duration: 5.0s;
-}
-
-.tagline {
-  color: #fff;
-  font-size: 20px;
-  margin-top: 20px;
-  font-style: italic;
-  letter-spacing: 2px;
-  .animated.fadeIn {
-    @include animation(4s, 2s);
-  }
-}
-
 .hero {
   height: $hero-height;
   background:
@@ -82,6 +51,24 @@ body {
     url('/images/moon.jpg') no-repeat center center scroll;
   background-size: cover;
 }
+
+.name {
+  font-family: 'anuratiregular', Helvetica;
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: #fff;
+  margin-top: 300px;
+}
+
+.tagline {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+/* BUTTONS */
 
 .btn {
   border-radius: 0;
@@ -112,4 +99,3 @@ body {
 .btn-sm:hover {
     border-width: 1px;
   }
-

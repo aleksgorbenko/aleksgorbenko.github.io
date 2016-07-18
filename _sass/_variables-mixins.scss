@@ -20,3 +20,23 @@ $hero-height: 1300px;
   -o-animation-delay: $delay;
   animation-delay: $delay;
 }
+
+a.animated.tada {
+  @include animation(1s);
+}
+
+a.animated.flash {
+  @include animation(2s);
+}
+
+.name.animated.fadeIn {
+  @include animation(4s);
+}
+
+.tagline.animated.fadeIn {
+  @include animation(2s, 1s);
+}
+
+a.animated.fadeIn {
+  @include animation(2s, 2s);
+}
