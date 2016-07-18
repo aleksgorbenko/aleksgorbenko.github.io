@@ -3,7 +3,7 @@ $(function() {
 
   // CTA animation on navbar link clicks
   $('a:contains("CONTACT")').click(function () {
-    var $contact = $('#btn-contact');
+    var $contact = $('#contact');
 
     setTimeout(function() {
       $contact.addClass('animated tada');
@@ -15,7 +15,7 @@ $(function() {
   });
 
   $('a:contains("RESUME")').click(function () {
-    var $resume = $('#btn-resume');
+    var $resume = $('#resume');
     setTimeout(function() {
       $resume.addClass('animated flash');;
     }, 1000);

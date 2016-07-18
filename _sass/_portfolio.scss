@@ -1,4 +1,4 @@
-#portfolio {
+.portfolio {
   height: 100%;
   background-color: #EDEEEF;
 }
@@ -18,12 +18,23 @@
   font-size: 18px;
 }
 
-#portfolio .headline {
+.portfolio .headline {
   font-style: normal;
   font-size: 18px;
 }
 
-#btn-resume a:hover {
+#resume a:hover {
   background-color: #222;
   border-color: #222;
+}
+
+/* making the smooth scroll compensation */
+
+#resume:before,
+#portfolio:before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
 }
