@@ -5,5 +5,5 @@ source "https://rubygems.org"
 # gem "rails"
 gem 'jekyll'
 gem 'github-pages'
-gem'jekyll-watch'
+gem 'jekyll-watch'
 # gem 'listen'

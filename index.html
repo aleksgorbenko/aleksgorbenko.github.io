@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="hero text-center">
-
   <div class="col-xs-12">
     <h1 class="name animated fadeIn">
       ALEKS GORBENKO
@@ -16,38 +15,11 @@ layout: default
       id="monolith"
       data-toggle="tooltip"
       data-placement="top"
-      title="Tycho Magnetic Anomaly TMA-1"
-    ></div>
+      title="Tycho Magnetic Anomaly TMA-1">
+    </div>
 
-    <a href="#about" class="btn btn-default animated fadeIn">Who Am I?</a>
-
-</div>
-
-<!-- triggering all the tooltips -->
-<script>
-
-
-  $(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-
-    $('a:contains("CONTACT")').click(function () {
-      var $contact = $('#btn-contact');
-      $contact.addClass('animated tada');
-      setTimeout(function() {
-        $contact.removeClass('animated tada');
-      }, 3000);
-    });
-
-    $('a:contains("RESUME")').click(function () {
-      var $resume = $('#btn-resume');
-      $resume.addClass('animated flash');
-      setTimeout(function() {
-        $resume.removeClass('animated flash');
-      }, 3000);
-    });
-
-
-  });
-</script>
-
+    <a href="#about" class="btn btn-default animated fadeIn">
+      Who Am I?
+    </a>
+  </div>
 </div>

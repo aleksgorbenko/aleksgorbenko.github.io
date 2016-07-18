@@ -14,7 +14,7 @@
     <nav class="text-center">
       <ul id="links" class="nav navbar-nav">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#resume">RESUME</a></li>
+        <li><a href="#btn-resume">RESUME</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="https://aleksgorbenko.com">BLOG</a></li>
         <li><a href="#contact">CONTACT</a></li>
@@ -23,19 +23,3 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-<script>
-  $(document).ready(function(){
-   var scroll_start = 1000;
-   var startchange = $('.navbar');
-   var offset = startchange.offset();
-   $(document).scroll(function() {
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $('.navbar').css('background-color', '#353439');
-       } else {
-          $('.navbar').css('background-color', 'transparent');
-       }
-   });
-});
-</script>
