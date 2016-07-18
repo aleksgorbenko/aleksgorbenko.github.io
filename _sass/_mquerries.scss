@@ -1,0 +1,21 @@
+@media(max-width: 1124px) {
+  .name {
+    font-size: 60px;
+  }
+  .about-me h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about-me p {
+    font-size: 17px;
+  }
+}
+
+@media(max-width: 470px) {
+  .name {
+    font-size: 46px;
+  }
+  .contact-line p {
+    font-size: 17px;
+  }
+}

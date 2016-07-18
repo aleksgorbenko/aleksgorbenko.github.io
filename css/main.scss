@@ -21,14 +21,16 @@ $font-path-file-name: {{ baseurl }}/assets/fonts/anurati-regular-webfont;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "layout",
+        "variables-mixins",
         "animate",
+        "monolith",
+        "layout",
+        "navbar",
+        "about",
+        "portfolio",
         "projects",
         "footer",
-        "monolith",
-        "navbar",
-        "portfolio",
-        "about"
+        "mquerries"
 ;
 
 

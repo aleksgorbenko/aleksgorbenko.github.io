@@ -1,0 +1,22 @@
+$hero-height: 1300px;
+
+@mixin btn-colors($color, $hover) {
+  color: $color;
+  border: 2px solid $color;
+  &:hover {
+    background-color: $color;
+    color: $hover;
+    border: 2px solid $color;
+  }
+}
+
+@mixin animation($duration, $delay: 0) {
+  -webkit-animation-duration: $duration;
+  -moz-animation-duration: $duration;
+  -o-animation-duration: $duration;
+  animation-duration: $duration;
+  -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
+  -o-animation-delay: $delay;
+  animation-delay: $delay;
+}
