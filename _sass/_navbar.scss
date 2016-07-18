@@ -1,21 +1,21 @@
-#links {
-  padding: 15px 10px;
+#links a {
+  padding: 10px 10px;
   font-size: 14px;
   letter-spacing: 4px;
   font-weight: 400;
   color: rgba(255,255,255, .6);
 }
 
-#links:hover {
+#links a:hover {
   color: rgba(255,255,255, .9);
-  transition-duration: .5s;
+  transition-duration: .1s;
 }
 
-/*.navbar .navbar-nav {
+.navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
-}*/
+}
 
 /*.navbar.navbar-transparent li { color: #000 }*/
 
@@ -33,7 +33,7 @@
 }
 
 .navbar {
-transition-duration: 0.8s;
+transition-duration: 0.5s;
 }
 
 button.collapsed {
