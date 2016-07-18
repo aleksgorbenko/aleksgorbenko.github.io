@@ -30,7 +30,6 @@
 
 /* making the smooth scroll compensation */
 
-#resume:before,
 #portfolio:before {
   display: block;
   content: " ";
@@ -38,3 +37,12 @@
   height: 70px;
   visibility: hidden;
 }
+
+#resume:after {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+

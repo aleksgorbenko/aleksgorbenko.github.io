@@ -15,7 +15,7 @@ $(function() {
   });
 
   $('a:contains("RESUME")').click(function () {
-    var $resume = $('#resume');
+    var $resume = $('#btn-resume');
     setTimeout(function() {
       $resume.addClass('animated flash');;
     }, 1000);
