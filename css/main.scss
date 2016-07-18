@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
 // Font variables
 $font-name: "anuratiregular";
 $font-path-file-name: {{ baseurl }}/assets/fonts/anurati-regular-webfont;
@@ -30,8 +28,7 @@ $font-path-file-name: {{ baseurl }}/assets/fonts/anurati-regular-webfont;
         "monolith",
         "navbar",
         "portfolio",
-        "about",
-        "picture"
+        "about"
 ;
 
 

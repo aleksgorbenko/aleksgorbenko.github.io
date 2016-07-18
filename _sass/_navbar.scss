@@ -17,6 +17,10 @@
   vertical-align: top;
 }*/
 
+/*.navbar.navbar-transparent li { color: #000 }*/
+
+/* overriding defualt Bootstrap styles */
+
 .navbar-header,
 .navbar .navbar-collapse {
   text-align: center;
@@ -27,8 +31,6 @@
    background: transparent;
    border-color: transparent;
 }
-
-/*.navbar.navbar-transparent li { color: #000 }*/
 
 .navbar {
 transition-duration: 0.8s;

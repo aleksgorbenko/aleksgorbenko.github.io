@@ -130,25 +130,6 @@ body {
     border-width: 1px;
   }
 
-/* CONTACT */
-
-.contact-line {
-  height: 200px;
-  background-color: #353439;
-}
-
-.contact-line p {
-  margin-top: 30px;
-  font-style: italic;
-  letter-spacing: 2px;
-  color: #fff;
-  font-size: 20px;
-}
-
-.contact-line .btn-default {
-  margin-top: 30px;
-}
-
 @media(max-width: 1124px) {
   .name {
     font-size: 60px;
