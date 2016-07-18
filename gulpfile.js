@@ -2,6 +2,33 @@ var gulp = require('gulp');
 var shell = require('gulp-shell');
 var browserSync = require('browser-sync').create();
 
+
+//fecth newwest analytics
+
+var download = require('gulp-download');
+
+gulp.task('fetch-newest-analytics', function() {
+  return download('https://www.google-analytics.com/analytics.js')
+    .pipe(gulp.dest('assets/'));
+});
+
+
+// html minify
+
+// var gulp = require('gulp'),
+//     minifyHTML = require('gulp-minify-html');
+
+// gulp.task('html', ['jekyll'], function() {
+//     return gulp.src('_site/**/*.html')
+//         .pipe(minifyHTML({
+//             quotes: true
+//         }))
+//         .pipe(gulp.dest('_site/'));
+// });
+
+
+
+
 // Task for building blog when something changed:
 gulp.task('build', shell.task(['bundle exec jekyll build --watch']));
 // Or if you don't use bundle:
