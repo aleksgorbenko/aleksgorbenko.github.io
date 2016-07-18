@@ -5,12 +5,12 @@ var browserSync = require('browser-sync').create();
 
 //fecth newwest analytics
 
-var download = require('gulp-download');
+// var download = require('gulp-download');
 
-gulp.task('fetch-newest-analytics', function() {
-  return download('https://www.google-analytics.com/analytics.js')
-    .pipe(gulp.dest('assets/'));
-});
+// gulp.task('fetch-newest-analytics', function() {
+//   return download('https://www.google-analytics.com/analytics.js')
+//     .pipe(gulp.dest('assets/'));
+// });
 
 
 // html minify
