@@ -8,40 +8,46 @@
 
 #links:hover {
   color: rgba(255,255,255, .9);
-  transition-duration: .5s
+  transition-duration: .5s;
 }
 
-
-.navbar .navbar-nav {
+/*.navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
-}
+}*/
 
 .navbar-header,
 .navbar .navbar-collapse {
   text-align: center;
 }
+
 .navbar.navbar-default {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
 }
 
-.navbar.navbar-transparent li { color: #000 }
+/*.navbar.navbar-transparent li { color: #000 }*/
 
 .navbar {
-transition-duration: 0.9s;
+transition-duration: 0.8s;
 }
 
-button.collapsed,
-.navbar-fixed-top {
+button.collapsed {
   border-radius: 0;
   color: #fff;
   cursor: s-resize;
 }
 
-
 .navbar-toggle {
   float: none;
+  border-radius: 0;
+  cursor: n-resize;
+  margin: 8px 0;
+}
+
+.navbar-collapse {
+  border: 0;
+  box-shadow: none;
 }
