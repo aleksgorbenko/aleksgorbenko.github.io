@@ -1,12 +1,4 @@
-$hero-height: 1000px;
-
-@mixin vertical-align {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+$hero-height: 1300px;
 
 @mixin btn-colors($color, $hover) {
   color: $color;
@@ -30,31 +22,10 @@ $hero-height: 1000px;
 
 }
 
-@media(max-width: 1124px) {
-  .name {
-    font-size: 60px;
-  }
-  .about-me .about-me-tagline {
-    font-size: 20px;
-  }
-  .about-me .about-me-text {
-    font-size: 15px;
-  }
-}
-@media(max-width: 470px) {
-  .name {
-    font-size: 46px;
-  }
-}
-
 /* GLOBAL */
 
 h2, h3, h4, h5, h6, p, span, li {
   font-family: 'Droid Serif', serif
-}
-
-a {
-  color: #999;
 }
 
 a:hover,
@@ -63,11 +34,29 @@ a:active {
   text-decoration: none;
 }
 
+a {
+  color: #444;
+}
+
+a:hover {
+  color: #bbb;
+  border-bottom: 3px solid #bbb;
+  cursor: pointer;
+  transition-duration: .1s;
+}
+
 li {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+}
 
+body {
+  font-size: 17px;
+  color: #828282;
+}
 
 /* INTRO */
 
@@ -76,15 +65,20 @@ li {
   font-size: 100px;
   letter-spacing: 10px;
   color: #fff;
-  vertical-align: middle;
   margin-top: 300px;
 }
 .name.animated.fadeIn {
   @include animation(5s);
 }
 
+.name.animated.fadeIn {
+  -webkit-animation-duration: 5.0s;
+  -moz-animation-duration: 5.0s;
+  -o-animation-duration: 5.0s;
+  animation-duration: 5.0s;
+}
+
 .tagline {
-  display: block;
   color: #fff;
   font-size: 20px;
   margin-top: 20px;
@@ -94,7 +88,6 @@ li {
     @include animation(4s, 2s);
   }
 }
-
 
 .hero {
   height: $hero-height;
@@ -107,11 +100,9 @@ li {
   background-size: cover;
 }
 
-
 .btn {
   border-radius: 0;
   background-color: transparent;
-  margin: auto;
   margin-top: 80px;
   padding: 10px 15px;
   font-size: 30px;
@@ -119,46 +110,63 @@ li {
   letter-spacing: 3px;
   transition: 0.2s background-color linear, 0.2s color linear;
 }
+
 .btn-default {
-  @include btn-colors(#fff, #272727);
+  @include btn-colors(#fff, #575757);
 }
 
 .btn-inversed {
-  @include btn-colors(#272727, #fff);
+  @include btn-colors(#575757, #fff);
   margin-top: 30px;
 }
 
 .btn-sm {
   font-size: 15px;
-  border: 1px solid #272727;
+  border: 1px solid #575757;
   padding: 8px 10px;
 }
 
 .btn-sm:hover {
-    border: 1px solid #272727;
+    border-width: 1px;
   }
-
-
 
 /* CONTACT */
 
 .contact-line {
   height: 200px;
   background-color: #353439;
-  color: #fff;
 }
 
 .contact-line p {
-  font-size: 20px;
   margin-top: 30px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .contact-line .btn-default {
   margin-top: 30px;
 }
 
+@media(max-width: 1124px) {
+  .name {
+    font-size: 60px;
+  }
+  .about-me h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about-me p {
+    font-size: 17px;
+  }
+}
 
-
-
-
-
+@media(max-width: 470px) {
+  .name {
+    font-size: 46px;
+  }
+  .contact-line p {
+    font-size: 17px;
+  }
+}

@@ -50,12 +50,13 @@
   text-transform: uppercase;
   padding: 7px 14px;
   border: 1px solid #000;
-  margin: 100px 0 0 0;
+  margin: 40px 0 0 0;
   background-color: transparent;
 }
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #000;
+  background-color: #fff;
 }
 
 .hovereffect a.info, .hovereffect h2 {

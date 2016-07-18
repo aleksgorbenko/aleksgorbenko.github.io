@@ -8,8 +8,11 @@
 
 .picture img {
   border-radius: 50%;
-  border: 4px solid #999;
+  /*border: 4px solid #777;*/
   max-height: 400px;
+  -moz-box-shadow: 1px 5px 40px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 5px 40px rgba(0,0,0,.5);
+  box-shadow: 1px 5px 40px rgba(0,0,0,.5);
 }
 
 .picture p {
@@ -22,6 +25,7 @@
 }
 
 .picture .life-quote {
-  color: #888;
+  color: #aaa;
   font-size: 19px;
 }
+

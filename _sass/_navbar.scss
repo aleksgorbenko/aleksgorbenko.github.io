@@ -8,6 +8,7 @@
 
 #links:hover {
   color: rgba(255,255,255, .9);
+  transition-duration: .5s
 }
 
 
@@ -17,6 +18,7 @@
   vertical-align: top;
 }
 
+.navbar-header,
 .navbar .navbar-collapse {
   text-align: center;
 }
@@ -32,8 +34,14 @@
 transition-duration: 0.9s;
 }
 
-button.collapsed {
+button.collapsed,
+.navbar-fixed-top {
   border-radius: 0;
   color: #fff;
   cursor: s-resize;
+}
+
+
+.navbar-toggle {
+  float: none;
 }
