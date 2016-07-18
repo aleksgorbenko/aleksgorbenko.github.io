@@ -5,12 +5,12 @@ var browserSync = require('browser-sync').create();
 
 //fecth newwest analytics
 
-// var download = require('gulp-download');
+var download = require('gulp-download');
 
-// gulp.task('fetch-newest-analytics', function() {
-//   return download('https://www.google-analytics.com/analytics.js')
-//     .pipe(gulp.dest('assets/'));
-// });
+gulp.task('fetch-newest-analytics', function() {
+  return download('https://www.google-analytics.com/analytics.js')
+    .pipe(gulp.dest('assets/'));
+});
 
 
 // html minify
@@ -25,6 +25,16 @@ var browserSync = require('browser-sync').create();
 //         }))
 //         .pipe(gulp.dest('_site/'));
 // });
+//
+
+
+var imagemin = require('gulp-imagemin');
+
+gulp.task('images', () =>
+    gulp.src('assets/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('_site/assets/images'))
+);
 
 
 
@@ -45,4 +55,4 @@ gulp.task('serve', function () {
     gulp.watch('_site/**/*.*').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['build', 'serve']);
+gulp.task('default', ['build', 'serve', 'images']);
