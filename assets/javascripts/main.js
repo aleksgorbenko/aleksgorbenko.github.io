@@ -53,4 +53,8 @@ $(function() {
       }
     }
   });
+  // toggle/hide button on click on any link while on mobile
+  $('.nav a').on('click', function(){
+    $('.navbar-toggle').click()
+  });
 });
