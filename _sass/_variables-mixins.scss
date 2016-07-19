@@ -26,7 +26,11 @@ a.animated.tada {
 }
 
 a.animated.flash {
-  @include animation(2s);
+  @include animation(1);
+}
+
+a.animated.fadeIn {
+  @include animation(2s, 2s);
 }
 
 .name.animated.fadeIn {
@@ -35,8 +39,4 @@ a.animated.flash {
 
 .tagline.animated.fadeIn {
   @include animation(2s, 1s);
-}
-
-a.animated.fadeIn {
-  @include animation(2s, 2s);
 }
