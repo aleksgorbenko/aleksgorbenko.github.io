@@ -6,16 +6,14 @@
     font-size: 20px;
     line-height: 30px;
   }
-  .about-me p {
-    font-size: 17px;
-  }
 }
 
 @media(max-width: 470px) {
   .name {
-    font-size: 46px;
+    font-size: 42px;
+    letter-spacing: 6px;
   }
-  .contact-line p {
+  body {
     font-size: 17px;
   }
   .copyright {

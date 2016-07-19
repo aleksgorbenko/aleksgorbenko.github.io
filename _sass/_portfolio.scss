@@ -7,20 +7,18 @@
   margin-bottom: 50px;
 }
 
+.other-projects {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .other-projects h2 {
   margin-top: 50px;
   color: #555;
 }
 
-.other-projects {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 18px;
-}
-
 .portfolio .headline {
   font-style: normal;
-  font-size: 18px;
 }
 
 #resume a:hover {
@@ -29,7 +27,6 @@
 }
 
 /* making the smooth scroll compensation */
-
 #portfolio:before {
   display: block;
   content: " ";

@@ -1,7 +1,13 @@
 .about-me {
   background-color: #EDEEEF;
   height: 100%;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-me p,
+.other-projects p {
+  text-align: justify;
 }
 
 .headline {
@@ -25,16 +31,11 @@
   box-shadow: 1px 5px 40px rgba(0,0,0,.5);
 }
 
-.picture p {
-  font-size: 18px;
-}
-
 .picture li {
   margin-top: 20px;
-  font-size: 17px;
 }
 
 .picture .life-quote {
-  color: #aaa;
-  font-size: 19px;
+  color: #444;
+  font-size: 20px;
 }
