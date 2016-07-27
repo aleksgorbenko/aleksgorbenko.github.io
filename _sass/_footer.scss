@@ -24,7 +24,8 @@
 }
 
 .bottom-logo {
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .bottom-logo span {
@@ -33,16 +34,22 @@
   padding-bottom: 10px;
 }
 
+.social {
+  margin-bottom: 20px;
+}
+
 .social-button {
-  width: 30px;
+  font-size: 25px;
   margin: 15px;
-  border-radius: 50%;
-  padding: 1px;
+  color: #666;
 }
 
 .social-button:hover {
-  background-color: #999;
-  transition-duration: .5s;
+  color: #eee;
+}
+
+.footer a:hover {
+  border-bottom: none;
 }
 
 .copyright {

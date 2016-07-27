@@ -1,6 +1,7 @@
 .portfolio {
   height: 100%;
   background-color: #EDEEEF;
+  padding-bottom: 20px;
 }
 
 .project {
@@ -15,6 +16,13 @@
 .other-projects h2 {
   margin-top: 50px;
   color: #555;
+}
+.other-projects li {
+  list-style-type: circle;
+  list-style-position: inside;
+  text-align: justify;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 .portfolio .headline {
