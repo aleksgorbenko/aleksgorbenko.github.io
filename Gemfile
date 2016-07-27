@@ -6,4 +6,5 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'github-pages'
 gem 'jekyll-watch'
+gem 'jekyll-seo-tag'
 # gem 'listen'

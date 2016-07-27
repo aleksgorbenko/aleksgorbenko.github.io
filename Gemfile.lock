@@ -123,6 +123,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-seo-tag
   jekyll-watch
 
 BUNDLED WITH
