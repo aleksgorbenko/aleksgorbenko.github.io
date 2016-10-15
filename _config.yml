@@ -9,7 +9,7 @@
 title: Aleks Gorbenko | Web Developer | London
 email: AleksEdGorbenko@gmail.com
 description:  # this means to ignore newlines until "baseurl:"
-  I am a Web Developer specialising in Ruby on Rails. I also like playing chess and reading poetry.
+  I am a Software Developer. I also like playing chess and reading poetry.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aleksgorbenko.github.io" # the base hostname & protocol for your site
 twitter_username: algorben
