@@ -4,8 +4,15 @@
   padding-bottom: 20px;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .project {
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .other-projects {
@@ -17,10 +24,6 @@
 .testimonials h2 {
   margin-top: 50px;
   color: #555;
-}
-
-.other-projects ul {
-  list-style: disk outside;
 }
 
 .other-projects li {
