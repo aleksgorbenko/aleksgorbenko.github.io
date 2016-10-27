@@ -18,12 +18,17 @@
   margin-top: 50px;
   color: #555;
 }
+
+.other-projects ul {
+  list-style: disk outside;
+}
+
 .other-projects li {
   list-style-type: circle;
   list-style-position: inside;
   text-align: justify;
-  text-indent: -1em;
-  padding-left: 1em;
+  text-indent: -2em;
+  margin-left: 2em;
 }
 
 .portfolio .headline {
